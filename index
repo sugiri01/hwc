@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Warming Ceremony Invitation</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ffeaa7, #fab1a0, #fd79a8);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .invitation-card {
+            background: linear-gradient(145deg, #ffffff, #f8f9fa);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border: 3px solid #d4af37;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .invitation-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+            animation: rotate 20s linear infinite;
+        }
+        
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+        
+        .header {
+            font-size: 28px;
+            color: #d4af37;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .blessing {
+            font-size: 16px;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        .hosts {
+            font-size: 22px;
+            color: #2d3436;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        
+        .ceremony-title {
+            font-size: 24px;
+            color: #e17055;
+            font-weight: bold;
+            margin: 20px 0;
+            text-decoration: underline;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #636e72;
+            font-style: italic;
+            margin-bottom: 25px;
+        }
+        
+        .details {
+            background: rgba(212, 175, 55, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 25px 0;
+            border: 2px solid #d4af37;
+        }
+        
+        .detail-item {
+            margin: 12px 0;
+            font-size: 18px;
+            color: #2d3436;
+        }
+        
+        .detail-label {
+            font-weight: bold;
+            color: #d4af37;
+        }
+        
+        .venue {
+            background: rgba(225, 112, 85, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            border-left: 4px solid #e17055;
+        }
+        
+        .closing {
+            font-size: 16px;
+            color: #636e72;
+            line-height: 1.6;
+            margin-top: 25px;
+            font-style: italic;
+        }
+        
+        .decorative-element {
+            font-size: 30px;
+            margin: 15px 0;
+        }
+        
+        .home-icon {
+            font-size: 40px;
+            color: #d4af37;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <div class="content">
+            <div class="home-icon">🏠</div>
+            <div class="header">House Warming Ceremony Invitation</div>
+            <div class="decorative-element">✨ 🌟 ✨</div>
+            
+            <div class="blessing">With the blessings of Almighty,</div>
+            
+            <div class="hosts">Mr. Murugan and Mrs. Panjammmal</div>
+            
+            <div style="font-size: 16px; color: #636e72; margin: 15px 0;">are delighted to invite you to the</div>
+            
+            <div class="ceremony-title">House Warming Ceremony</div>
+            <div class="subtitle">of their new home</div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <span class="detail-label">🗓️ Date:</span> June 8th, 2025
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">🕓 Time:</span> 4:30 AM onwards
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">🍽️ Followed by:</span> Lunch
+                </div>
+            </div>
+            
+            <div class="venue">
+                <div class="detail-item">
+                    <span class="detail-label">📍 Venue:</span><br>
+                    55 Vallam Road, Cheyyar
+                </div>
+            </div>
+            
+            <div class="decorative-element">🌺 🪔 🌺</div>
+            
+            <div class="closing">
+                We warmly invite you to grace the occasion and<br>
+                bless our new beginning with your presence.
+            </div>
+            
+            <div class="decorative-element">🙏</div>
+        </div>
+    </div>
+</body>
+</html>
